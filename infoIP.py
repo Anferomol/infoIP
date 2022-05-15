@@ -28,9 +28,9 @@ print(
 f"""
 Tu IP es: {info['ip']}
 Tu país es: {info['country_long']}
-Tu ciudad es: {info['city']}
+Tu ciudad es: {info['city']}, {info['region']}
 Tu CP es: {info['postal_code']}
 Timezone: {info['timezone']}
-tu ISP: es 
+Lat/Long: {info['latitude']}/{info['longitude']}
 """
 )
